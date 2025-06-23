@@ -26,7 +26,7 @@
                 </div>
             </div>
             
-            <!-- User Statistics -->
+            <!-- User Statistics -->   
             <div class="dashboard-stats">
                 <div class="stat-card">
                     <div class="stat-number">${adminCount}</div>
