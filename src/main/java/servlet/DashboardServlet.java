@@ -60,7 +60,6 @@ public class DashboardServlet extends HttpServlet {
                     break;
                     
                 case "FAMILY_MEMBER":
-                    // Load family member dashboard data
                     // This would typically show only patients related to this family member
                     request.setAttribute("myPatients", patientDAO.findAll()); // Simplified for now
                     break;
