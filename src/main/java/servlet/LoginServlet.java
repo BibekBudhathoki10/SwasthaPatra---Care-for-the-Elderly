@@ -54,7 +54,6 @@ public class LoginServlet extends HttpServlet {
                 // Login successful
                 SessionUtil.setUserSession(request, user);
                 
-                // Redirect based on role
                 String redirectURL = getRedirectURL(user.getRole());
                 response.sendRedirect(request.getContextPath() + redirectURL);
             } else {
