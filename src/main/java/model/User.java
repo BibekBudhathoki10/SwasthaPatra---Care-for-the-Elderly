@@ -14,9 +14,10 @@ public class User {
     private Timestamp updatedAt;
 
     // Default constructor
-    public User() {}
+    public User() {
+    }
 
-    // Constructor with essential fields
+    // Constructor with essential field
     public User(String username, String passwordHash, String email, String phone, String role) {
         this.username = username;
         this.passwordHash = passwordHash;
